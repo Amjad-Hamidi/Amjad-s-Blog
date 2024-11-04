@@ -1,0 +1,83 @@
+/* Header Navigation Bar */
+.navbar ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+.navbar ul li {
+    margin: 0 15px; 
+}
+
+.navbar ul li a {
+    text-decoration: none; 
+    color: #333; 
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s; 
+}
+
+.navbar ul li a:hover {
+    color: #fff; 
+    background-color: #007BFF; 
+    border-radius: 5px; 
+}
+
+.coverimg img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fa-house:hover{
+    color: rgb(189, 255, 7);
+    font-size: xxx-large;
+    opacity: 1;
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+    cursor: pointer; /* Default behaviour */
+}
+
+article:hover em {
+    opacity: 0; /* Hide <em> */
+}
+
+/* Hover Effect */
+article:hover .item-content {
+    opacity: 1; /* Reveal content */
+}
+
+.project-item a:hover {
+    background-color: #0056b3; /* Changes the background color on hover */
+}
+
+.project-item a:active {
+    background-color: #004085; /* Changes the color when clicked */
+    transform: translateY(2px); /* Simulates a "pressed" button =>the element will be moved (translated) 2 pixels down along the Y-axis (vertically) */
+}
+/* Footer Contact Links */
+.contact span {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.contact a {
+    color: #333; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.contact a:hover {
+    color: #007BFF; 
+}
+
+/* Icon hover effect */
+.contact i {
+    margin-right: 5px; 
+    transition: color 0.3s; 
+}
+
+.contact a:hover i {
+    color: #007BFF; 
+}

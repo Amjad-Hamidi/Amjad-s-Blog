@@ -1,0 +1,32 @@
+footer{
+    background-color: #39b777;
+}
+
+footer h2{
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: salmon;
+}
+
+.fa-copyright,
+.fa-square-whatsapp,
+.fa-envelope,
+.fa-location-dot,
+.fa-linkedin{
+    background-color: #1dff6d;
+    font-size: large;
+    padding: 2px 2px 0 2px;
+}
+.fa-linkedin{
+    font-size: larger;
+}
+.fa-square-whatsapp{
+    font-size: 21px;
+}

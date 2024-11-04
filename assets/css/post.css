@@ -1,0 +1,123 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -28px
+}
+
+.profile a{
+    display: flex;
+    justify-content: center;
+}
+
+.profile img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+#summary,
+#education,
+#experience,
+#skills,
+#projects {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#summary h2,
+#education h2,
+#experience h2,
+#skills h2,
+#projects h2{
+    /*color: #333;*/
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p {
+    /*color: #555;*/
+    line-height: 1.6;
+    /*text-align: justify;*/ /* responsive بتاثر لما نصغر الشاشة في*/
+}
+
+.profile,
+#summary,
+#education,
+#experience,
+#skills,
+#projects{
+    background-color: #b9e77c;
+}
+
+.education-item ul{
+    text-align: center;
+}
+.education-item ul li strong{
+    display: block;
+    text-decoration: underline;
+}
+
+.education-item .mgn-right{
+    margin-right: 30px;
+    padding: 0 10px;
+}
+
+.education-item ul li:nth-child(3){
+    display: inline-block;
+    text-align: center;
+}
+
+.education-item ul li,
+#skills ul li{
+    border-right: 1px solid #f32611;
+    border-left: 1px solid #f32611;
+    box-shadow: 0px 0px 9px #622525;
+    margin: 0 8px;
+    padding: 4px;
+}
+
+.besides{
+    gap: 6px;
+}
+
+#skills ul{
+    text-align: center;
+}
+
+#skills ul strong{
+    display: inline-block;
+    text-decoration: underline;
+    width: 100%;
+}
+
+#skills ul strong.fitwidth{
+    width: max-content;
+}
+
+.experience-item ul,
+#projects li{
+    list-style-type: disc;
+}
+
+.proj-items-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-item a{
+    padding: 5px;
+    margin-left: 15px;
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    border: none; 
+    text-align: center;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; /*background-color: The property that will change, 0.3s: The duration of the transition (300 milliseconds), ease: The timing function that controls the speed of the transition, making it start slow, speed up in the middle, and slow down again at the end*/
+}
