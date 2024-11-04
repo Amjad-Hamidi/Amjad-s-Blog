@@ -27,6 +27,12 @@ figcaption{
     border-radius: 50%;
 }
 
+blockquote{
+    font-style: normal; 
+    font-size: 0.9em; 
+    color: #333;
+}
+
 blockquote {
     font-style: italic;
     color: #555;
