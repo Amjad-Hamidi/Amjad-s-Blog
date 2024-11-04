@@ -81,3 +81,7 @@ article:hover .item-content {
 .contact a:hover i {
     color: #007BFF; 
 }
+
+a:hover {
+    text-decoration: underline;
+}

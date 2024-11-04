@@ -5,6 +5,18 @@
     margin-top: -28px
 }
 
+.profile figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption{
+    font-size: small;
+    margin-top: 5px;
+    color: #555;
+}
+
 .profile a{
     display: flex;
     justify-content: center;
@@ -13,6 +25,14 @@
 .profile img{
     width: 60%;
     border-radius: 50%;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    background-color: #f0f0f0;
+    border-left: 4px solid #00796b;
+    padding: 10px 20px;
 }
 
 #summary,
@@ -110,7 +130,7 @@ p {
 .project-item a{
     padding: 5px;
     margin-left: 15px;
-    padding: 10px 20px; 
+    padding: 10px; 
     background-color: #007BFF; 
     color: #fff; 
     text-decoration: none; 
